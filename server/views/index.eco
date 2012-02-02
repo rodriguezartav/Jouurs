@@ -1,0 +1,13 @@
+<header class="container">
+</header>
+
+<section class="container">
+  <div class="row">
+    <div class="hash_tags columns three"></div>
+    <div class="articles columns seven"></div>
+    <div class="users columns two"></div>
+  </div>
+</section
+
+<div class="lightbox reveal-modal-bg">
+</div>

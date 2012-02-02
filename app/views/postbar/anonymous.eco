@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="columns seven centered">
+  <form class="nice">
+    <span>Share the News </span>
+    <input type="text" class="large nice small"/> 
+    <a class="button nice small">Go</a>
+    <img class="loader" src="/images/ajax_loader.gif"/>
+  </form>
+  </div>
+</div>

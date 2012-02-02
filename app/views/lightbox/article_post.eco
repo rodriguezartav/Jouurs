@@ -1,0 +1,38 @@
+<%= "".i18n() %>
+
+<h2><%= "Share the news!".i18n() %></h2>
+
+
+<a class="close-reveal-modal">&#215;</a>
+
+<div class="content">
+  
+ <form  name="contact_form"  class="nice">
+
+          <img src="<%= @Thumb  %>"/>
+
+          <input name="Owner" type="hidden" value="rodriguezartav" />
+
+          <input name="Url" type="hidden" value="<%= @Url  %>" />
+
+          <input name="id" type="hidden" value="<%= @id  %>" />
+          
+          <input name="Thumb" type="hidden" value="<%= @Thumb  %>" />
+
+					<label><%= "Title".i18n() %></label>
+					<input name="Title" required   value="<%= @Title  %>"   placeholder="<%= "The shorter the better".i18n() %>" type="text" class="nice input-text large">
+          
+          	<label><%= "Category".i18n() %></label>
+  					<input name="Category" required   value="<%= @Category  %>"   placeholder="<%= "".i18n() %>" type="text" class="nice input-text large">
+          
+          <label><%= "Why do you share it?".i18n() %></label>
+					<textarea name="Description" class="nice large" placeholder="Optional"> <%= @Description  %> </textarea>
+
+          <input type="submit" class="button nice save large"><br/>
+          <a href="#" class="centered" class="close"> cancel</a>
+ 			
+ 				</form>
+    
+  </div>
+
+

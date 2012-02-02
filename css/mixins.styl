@@ -1,0 +1,137 @@
+vendor(prop, args)
+  -webkit-{prop} args
+  -moz-{prop} args
+  -ms-{prop} args
+  -o-{prop} args
+  {prop} args
+
+
+
+row()
+  width: 100%
+  max-width: 1200px
+  min-width: 727px
+  margin: 0 auto
+  zoom: 1
+  .row
+    min-width: 0
+
+columns(n,offset= 0 , centered = false)
+  margin-left: 4.4%
+  float: left
+  min-height: 1px
+  position: relative
+
+  &:first-child
+    margin-left: 0
+
+  &:before, &:after
+    content:""
+    display:table
+
+  &:after
+    clear: both
+
+
+  if n is 1
+    width: 4.3%
+
+  else if n is 2
+    width: 13%
+
+  else if n is 3
+    width: 21.68%
+
+  else if n is 4
+    width: 30.4%
+
+  else if n is 5
+    width: 39.1%
+
+  else if n is 6
+    width: 47.8%
+
+  else if n is 7
+    width: 56.5%
+
+  else if n is 8
+    width: 65.2%
+
+  else if n is 9
+    width: 73.9%
+
+  else if n is 10
+    width: 82.6%
+
+  else if n is 11
+    width: 91.3%
+
+  else if n is 12
+    width: 100%
+
+
+  if offset is 1
+    margin-left: 13.1%
+    &:first-child
+      margin-left: 8.7%
+
+  else if offset is 2
+    margin-left: 21.8%
+    &:first-child
+      margin-left: 17.4%
+
+  else if offset is 3
+    margin-left: 30.5%
+    &:first-child
+      margin-left: 26.1%
+
+  else if offset is 4
+    margin-left: 39.2%
+    &:first-child
+      margin-left: 34.8%
+
+  else if offset is 5
+    margin-left: 47.9%
+    &:first-child
+      margin-left: 43.5%
+
+  else if offset is 6
+    margin-left: 56.6%
+    &:first-child
+      margin-left: 52.2%
+
+  else if offset is 7
+    margin-left: 65.3%
+    &:first-child
+      margin-left: 60.9%
+
+  else if offset is 8
+    margin-left: 74.0%
+    &:first-child
+      margin-left: 69.6%
+
+  else if offset is 9
+    margin-left: 82.7%
+    &:first-child
+      margin-left: 78.3%
+
+  else if offset is 10
+    margin-left: 91.4%
+    &:first-child
+      margin-left: 87%
+
+  else if offset is 11
+    margin-left: 91.4%
+    &:first-child
+      margin-left: 95.7%
+
+  if centered
+    float: none
+    margin: 0 auto
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+<div class="badge">
+  <img src="http://img.tweetimag.es/i/<%= @id %>"/>
+  <span><%= @Name %></span>
+</div>
+
+
+<div class="contact_list">
+</div>

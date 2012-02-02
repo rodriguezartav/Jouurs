@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="columns two phone-two">
+    <h3>Jouurs</h3>
+  </div>
+
+  <div class="columns ten buttons right phone-two">
+    <div class="badge right">
+      <a  href="/login" class="button nice">Login</a>
+    </div>
+  </div>
+ 
+</div>

@@ -1,0 +1,134 @@
+header
+  background-color: #222
+  background-image: url("images/top-nav-background.gif");
+  h3
+    color: #fff
+    padding: 5px
+    
+  .badge
+    vertical-align: top
+    color: #fff
+    img
+      border: 1px solid #999
+      display: inline-block
+      height: 22px
+      margin-top: 12px
+      width: 22px
+    span
+      display: inline-block
+      font-size: 13px
+      font-weight: 600
+      vertical-align: top
+      margin-top: 12px
+      
+      padding-top: 3px
+
+
+.postbar
+  margin-bottom: 10px
+  .loader
+    display: none
+  &.disabled
+    opacity: 0.3
+    .loader
+      display: inline-block
+    .button
+      display: none
+  .row
+    padding-top: 5px
+    padding-bottom: 5px
+    border-bottom: 1px solid #999
+    form
+      margin: 0px
+      span
+        display: inline-block
+        margin-right: 5px
+      input
+        padding-bottom: 8px
+        display: inline-block
+
+section
+  .hash_tag
+    overflow: hidden
+    
+    .badge
+      vertical-align: top
+      margin-bottom: 7px
+      border-bottom: 1px solid #ededed
+      padding-bottom: 2px
+      img
+        display: inline-block
+        height: 32px
+        width: 32px
+      span
+        display: inline-block
+        font-size: 13px
+        font-weight: 600
+        
+        vertical-align: top
+        padding-top: 7px
+
+    .contacts_list
+      overflow: hidden
+      
+
+  .articles
+    h3
+      margin-bottom: 8px
+    dl.tabs
+      input
+        width: 95%
+        margin-bottom: 7px
+        margin-left: 3px
+      .create
+        padding: 5px 10px
+      .count
+        margin-right: 5px
+        font-weight: 600
+
+  .breadcrum_div
+    border-bottom: 1px solid #e9e9e9
+    .breadcrum_text
+      input
+        border: none
+        outline: none
+        &:focus
+          border: 1px solid #eee
+    a
+      margin-top: 7px
+  
+  .category_list
+    overflow: hidden
+    .category_holder
+      margin-bottom: 15px
+      overflow-x: auto
+      width: 100%
+      &[draggable]
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: move
+    
+      .frame
+        height: 120px
+        padding: 15px 10px
+        overflow: hidden
+      
+      h6
+        font-size: 13px
+    
+      .delete_item
+        font-size: 22px
+        line-height: .5
+        position: absolute
+        top: 2px
+        right: 4px
+        color: #aaa
+        text-shadow: 0 -1px 1px rbga(0,0,0,.6)
+        font-weight: bold
+        cursor: pointer
+    
+      .placeholder_for_image
+        height: 150px
+        overflow: hidden

@@ -1,0 +1,16 @@
+{
+  "name": "Jouurs",
+  "version": "0.0.1",
+  "dependencies": { 
+    "hem": "~0.1.7",
+    "es5-shimify": "~0.0.1",
+    "json2ify": "~0.0.1",
+    "jqueryify": "~0.0.1",
+    "spine": "~1.0.6",
+    "mongoose": "latest",
+    "coffee-script": "latest",
+    "lingo" : "latest",
+    "mongoose-rest": "https://github.com/gaslight/mongoose-rest/tarball/master",
+    "express": "latest"
+  }
+}

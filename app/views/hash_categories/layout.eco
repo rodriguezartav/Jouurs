@@ -1,0 +1,7 @@
+<div class="breadcrum_div row">
+  <div <%= 'data-read-only=true' if @Name == "Free" %> data-field="Name" data-update-label="true"  data-id="<%= @id %>" data-type="hash_tag"  class="editable columns ten">
+		<h2 class="label"><%= @Name %></h2>
+		<input incremental="true" autofocus class="edit" value="<%= @Name %>" />
+	</div>
+  <a class="add_category columns right button nice small">+</a>
+</div>

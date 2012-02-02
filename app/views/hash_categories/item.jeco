@@ -1,0 +1,21 @@
+<div <%= 'data-read-only=true' if @Name == "" %> data-field="Name" data-id="<%= @id %>" data-type="hash_category"  class="editable">
+  <h3 class="label"><%= @Name %> &#10027;</h3>
+	<input incremental="true" autofocus class="edit" value="<%= @Name %>" />
+</div>
+
+  <div class="category_holder row">
+    <div  style="width:<%= @Articles.length * 200 %>px" class="scroll_div">
+    <% for item in @Articles: %>
+      <div data-id="<%= item.id %>" draggable="true" style="width: 125px" class="columns three article_container">
+        <div class="box frame">
+          <img src="<%= item.Thumb %>" />
+          <h6><%= item.Title %></h6>
+          <div class="placeholder_for_description">
+            <p><%= item.Description %></p>
+          </div>
+        </div>
+      </div>
+    <% end %>
+    </div>
+  </div>
+<hr/>
